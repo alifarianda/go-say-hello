@@ -1,6 +1,6 @@
 package go_say_hello
 
 
-func SayHello() string {
-	return "Hello Worlde GAN !";
+func SayHello(name string) string {
+	return "Hello Worlde GAN "+ name +" !";
 }
